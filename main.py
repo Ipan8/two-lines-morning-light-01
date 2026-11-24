@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Two Lines of Morning Light — make.fun entry.
 Writes the two-line micro poem to /output/entry.txt.
+Entry:
+Morning light through the blinds
+drew stripes on the floor, and the room was a tiger for a minute.
 """
 import os
 
-ENTRY = "Morning light through the blinds\ndrew stripes on the floor, and the room was a tiger for a minute."
+ENTRY = "Morning light through the blinds\ndrew stripes on the floor, and the room was a tiger for a minute."  # 98 chars, limit 120
 
 def main():
     os.makedirs("/output", exist_ok=True)
